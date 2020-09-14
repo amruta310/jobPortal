@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-Apr-2020, 15:14:30
+    Author     : Amruta
+*/
+
+@CHARSET "UTF-8";
+body{height:100%;
+   width:100%;
+   background-image:url(Image/main.jpg);/*your background image*/  
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/     
+}
+#topButton{
+    float: right;
+    background-color: #e7e7e7; color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#h1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+#td1{
+    resize: horizontal;
+    color: white
+}
+
+#td2{
+  text-transform: uppercase  ;
+  color: white    
+}
+#updateButton{
+    background-color: #e7e7e7; color: black;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+h1{
+	color: blue
+}
+
+table{
+    margin-left: 250px
+}
+
+#a1{
+	float: right;
+}
